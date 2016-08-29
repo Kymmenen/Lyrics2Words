@@ -2,7 +2,7 @@ from urllib import request
 from bs4 import BeautifulSoup as bs
 import lxml, subprocess
 
-class Lyrics():
+class Lyrics2Words():
   def __init__(self):
     self.word = ""
 
@@ -45,7 +45,7 @@ class Lyrics():
     words_csv.close()
 
 def main():
-  obj = Lyrics()
+  obj = Lyrics2Words()
 
   url = input("Please input URL:\n")
   domain = obj.getHTML(url)
