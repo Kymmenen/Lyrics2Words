@@ -8,9 +8,9 @@ Download lyrics from some website and then, make a words list.
 
 ## Usage
 
-'''
+```
 pip install -r requirement.txt
 python Lyrics2Words.py
-'''
+```
 
 
